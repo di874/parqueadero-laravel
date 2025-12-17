@@ -15,10 +15,7 @@ Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC
 
 ---
 
-## 📁 Estructura del Proyecto
-
-![Estructura del proyecto Laravel](public/img/readme/ProyectoLaravel.png)
-
+## Estructura del Proyecto
 ---
 
 ## ⚙️ Configuración del Proyecto
