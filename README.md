@@ -1,11 +1,11 @@
-# 🚗 Sistema de Gestión de Vehículos – Laravel 10
+<img width="1744" height="825" alt="Captura de pantalla 2025-12-17 161637" src="https://github.com/user-attachments/assets/dcc9afff-d92d-467c-90ac-eefbda9a9d7b" /># Sistema de Gestión de Vehículos – Laravel 10
 
 Este proyecto implementa un CRUD completo para la gestión de vehículos, permitiendo registrar, editar, listar y eliminar información dentro de un sistema básico de administración.  
 Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC.
 
 ---
 
-## 📦 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Laravel 10
 - PHP 8.2
@@ -14,38 +14,47 @@ Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC
 - Blade Templates
 
 ---
+## Crear Repositorio en GitHub 
 
-## Estructura del Proyecto
----
+### Creacion del Proyecto en GitHub
 
-## ⚙️ Configuración del Proyecto
+![Creación de Github](public/img/readme/CreaciónGitHub.png)
+
+## Crear el Proyecto con Laravel
+
+### Creación Laravel 
+
+![Creación de Proyecto en Laravel](public/img/readme/ProyectoLaravel.png)
+
+### Prueba Conección Laravel
+
+![Prueba conexion en Laravel](public/img/readme/PruebaConexion.png)
+
+### Conexion GitHub
+
+![Prueba conexion en GitHub](public/img/readme/PruebaConexion.png)
+
+##Configurar Base de Datos
 
 ### Configuración y conexión a la base de datos
 ![Configuración y conexión BD](public/img/readme/ConfiguracionyConexionBD.png)
 
-### Prueba de conexión
-![Prueba de conexión](public/img/readme/PruebaConexion.png)
+## Crear Migración, Modelo y Controlador 
 
-### Página inicial funcionando
-![Página cargada](public/img/readme/PurebaPagina.png)
-
----
-
-## 🛠️ Migración, Modelo y Controlador
-
-### Migración
-![Migración](public/img/readme/Migracion.png)
-
-### Modelo Vehiculo.php
-![Modelo Vehiculo](public/img/readme/Vehiculophp.png)
+## Migración, Modelo y Controlador
 
 ### Migración, modelo y controlador juntos
 ![Migración, modelo y controlador](public/img/readme/Migracion,Modelo,Controlador.png)
 
-### Controlador
-![Controlador](public/img/readme/CrearControlador.png)
+## Definir la Tabla (Migración)
 
----
+###Migracion 
+
+![Migraciónr](public/img/readme/Migracion.png)
+
+## Configurar Vehiculo 
+
+![Migraciónr](public/img/readme/Vehiculo.png)
 
 ## 🌐 Rutas del sistema
 
@@ -53,46 +62,33 @@ Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC
 
 ---
 
-## 🖼️ Vistas Blade
+## Configuracion de rutas 
 
 ### Vista principal (Index)
-![Index Vehículos](public/img/readme/IndexVehiculos.png)
+![Index Vehículos](public/img/readme/ConfigurarRutas.png)
 
-### Formulario de creación
-![Create Blade](public/img/readme/CreateBladeVehiculos.png)
+### Crear Controlador
+![Create Blade](public/img/readme/CrearControlador.png)
 
-### Formulario de edición
-![Edit Blade](public/img/readme/EditBladeVehiculos.png)
+### Crear Layout
+![Edit Blade](public/img/readme/CrearLayout.png)
 
----
-
-## 🔗 GitHub y control de versiones
-
-### Creación del repositorio
-![Creación GitHub](public/img/readme/CreaciónGitHub.png)
-
-### Conexión con GitHub
-![Conexión GitHub](public/img/readme/ConeccionGitHub.png)
-
-### Cambios enviados
+### Crear Index
 ![Cambios GitHub](public/img/readme/CambiosGitHub.png)
 
----
+### Create Blade Vehiculos
+![Cambios GitHub](public/img/readme/CreateBladeVehiculos.png)
 
-## 🚀 Instalación del proyecto
+### Edit Blade Vehiculos
+![Cambios GitHub](public/img/readme/EditBladeVehiculos.png)
 
-Sigue estos pasos para ejecutar el proyecto localmente:
+## Probar Aplicación
 
-```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <nombre-del-proyecto>
+### Prueba de Aplicación
+![Cambios GitHub](public/img/readme/PurebaPagina.png)
 
-composer install
+### Prueba de Editar
+![Cambios GitHub](public/img/readme/EditarVehiculo.png)
 
-cp .env.example .env
-php artisan key:generate
-
-# Configura tu base de datos en el archivo .env
-
-php artisan migrate
-php artisan serve
+### Prueba de Eliminar
+![Cambios GitHub](public/img/readme/EliminarVehiculo.png)
