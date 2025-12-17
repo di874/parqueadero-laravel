@@ -22,8 +22,6 @@ Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC
 
 ## Crear el Proyecto con Laravel
 
-### Creación Laravel 
-
 ![Creación de Proyecto en Laravel](public/img/readme/ProyectoLaravel.png)
 
 ### Prueba Conección Laravel
@@ -41,9 +39,6 @@ Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC
 
 ## Crear Migración, Modelo y Controlador 
 
-## Migración, Modelo y Controlador
-
-### Migración, modelo y controlador juntos
 ![Migración, modelo y controlador](public/img/readme/Migracion,Modelo,Controlador.png)
 
 ## Definir la Tabla (Migración)
@@ -56,39 +51,37 @@ Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC
 
 ![Migraciónr](public/img/readme/Vehiculo.png)
 
-## 🌐 Rutas del sistema
+## Rutas del sistema
 
 ![Configurar rutas](public/img/readme/ConfigurarRutas.png)
-
----
 
 ## Configuracion de rutas 
 
 ### Vista principal (Index)
-![Index Vehículos](public/img/readme/ConfigurarRutas.png)
+![Configuración Vehiculo](public/img/readme/ConfigurarRutas.png)
 
 ### Crear Controlador
-![Create Blade](public/img/readme/CrearControlador.png)
+![Create Controlador](public/img/readme/CrearControlador.png)
 
 ### Crear Layout
-![Edit Blade](public/img/readme/CrearLayout.png)
+![Crear Layout](public/img/readme/CrearLayout.png)
 
 ### Crear Index
-![Cambios GitHub](public/img/readme/CambiosGitHub.png)
+![Crear Index](public/img/readme/CambiosGitHub.png)
 
 ### Create Blade Vehiculos
-![Cambios GitHub](public/img/readme/CreateBladeVehiculos.png)
+![Crear Blade Vehiculo](public/img/readme/CreateBladeVehiculos.png)
 
 ### Edit Blade Vehiculos
-![Cambios GitHub](public/img/readme/EditBladeVehiculos.png)
+![Edit Blade Vehiculo](public/img/readme/EditBladeVehiculos.png)
 
 ## Probar Aplicación
 
 ### Prueba de Aplicación
-![Cambios GitHub](public/img/readme/PurebaPagina.png)
+![Prueba Página](public/img/readme/PurebaPagina.png)
 
 ### Prueba de Editar
-![Cambios GitHub](public/img/readme/EditarVehiculo.png)
+![Editar Vehículo](public/img/readme/EditarVehiculo.png)
 
 ### Prueba de Eliminar
-![Cambios GitHub](public/img/readme/EliminarVehiculo.png)
+![Eliminar Vehículo](public/img/readme/EliminarVehiculo.png)
