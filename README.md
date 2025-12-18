@@ -1,5 +1,3 @@
-<img width="1744" height="825" alt="Captura de pantalla 2025-12-17 161637" src="https://github.com/user-attachments/assets/dcc9afff-d92d-467c-90ac-eefbda9a9d7b" /># Sistema de Gestión de Vehículos – Laravel 10
-
 Tarea – Desarrollo en Plataformas
 Estudiante: Diego Daniel Cevallos Sánchez Fecha: (coloca la fecha de entrega) Paralelo: (tu paralelo)
 
@@ -8,12 +6,13 @@ Mis Decisiones de Diseño
 La tabla principal del proyecto se llama vehiculos, esta tabla almacena la información necesaria para registrar cada vehículo que ingresa al parqueadero, se definieron cinco campos esenciales: la placa, el tipo de vehículo, el propietario, las observaciones y las marcas de tiempo generadas automáticamente por Laravel, la placa y el tipo son obligatorios, mientras que el propietario y las observaciones son opcionales para permitir flexibilidad en el registro.
 
 Estructura de la tabla
-Campo	                     Tipo	        ¿Obligatorio?
-placa	                    string(10)	         Sí
-tipo	                    string(20)	         Sí
-propietario	                string(100)	         No
-observaciones	            text	             No
-timestamps	                datetime	         Sí (automático)
+| Campo         | Tipo        | Obligatorio |
+|---------------|-------------|-------------|
+| placa         | string(10)  | Sí          |
+| tipo          | string(20)  | Sí          |
+| propietario   | string(100) | No          |
+| observaciones | text        | No          |
+| timestamps    | datetime    | Sí          |
 
 2. Tipos de vehículo
 Para el sistema se definieron tres tipos de vehículo, los cuales representan las categorías más comunes dentro de un parqueadero:
@@ -34,6 +33,12 @@ Razón: La eliminación está habilitada porque forma parte del ciclo completo d
 
 Este proyecto implementa un CRUD completo para la gestión de vehículos, permitiendo registrar, editar, listar y eliminar información dentro de un sistema básico de administración.  
 Fue desarrollado con Laravel 10, siguiendo buenas prácticas de arquitectura MVC.
+
+
+
+
+<img width="1744" height="825" alt="Captura de pantalla 2025-12-17 161637" src="https://github.com/user-attachments/assets/dcc9afff-d92d-467c-90ac-eefbda9a9d7b" /># Sistema de Gestión de Vehículos – Laravel 10
+
 
 ---
 
