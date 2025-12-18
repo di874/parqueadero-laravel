@@ -116,3 +116,6 @@ Se realizaron pruebas completas del sistema, verificando que todas las operacion
 
 ### Prueba de Eliminar
 ![Eliminar Vehículo](public/img/readme/EliminarVehiculo.png)
+
+### Prueba Movil
+![Prueba Movil](public/img/readme/PruebaMovil.png)
